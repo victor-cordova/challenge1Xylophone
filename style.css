@@ -1,0 +1,67 @@
+html {
+    font-size: 62.5%;
+}
+
+/* html, body {
+    overflow: hidden;
+  } */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: fixed;
+}
+
+.background {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+/* 
+body {
+    width: 100vw;
+    height: 100vh;
+} */
+
+.xilophono {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 0px
+}
+
+.xilophono__note {
+    /* width: 70vw; */
+    width: 7.5rem;
+    height: 7.5rem;
+    margin: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-style: solid;
+    border-color: black;
+    border-width: 3.5px;
+    opacity: 0.8;
+}
+
+.xilophono__note-text {
+    font-size: 3.5rem;
+    color: whitesmoke;
+}
+
+.xilophono__note:hover  {
+    opacity: 1;
+    transform: scale(1.1);
+    transition: 250ms;
+    transform-origin: center;
+    border-color: goldenrod;
+}
