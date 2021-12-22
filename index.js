@@ -27,20 +27,12 @@ const xylophoneB = new Xylophone(document.getElementById("noteB"), document.getE
 
 const xylophoneC1 = new Xylophone(document.getElementById("noteC1"), document.getElementById("audioC1"));
 
-
-// window.addEventListener("click", e => {
-//     // const audio = document.querySelector(`audio[id=${e}]`)
-//     console.log(e)
-// })
-
 xylophoneC2.note.addEventListener("mouseenter", e => {
     xylophoneC2.play(); 
-    // console.log(e)
 });
 
 xylophoneC2.note.addEventListener("click", e => {
     xylophoneC2.play(); 
-    // console.log(e)
 });
 
 xylophoneD.note.addEventListener("mouseenter", e => {
